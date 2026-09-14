@@ -107,10 +107,8 @@ images themselves are not stored directly in the database. instead, lenslog stor
 ```text
 lenslog/
 │
-├── main.py
-├── database/
-├── images/
-├── assets/
+├── lenslog1.py
+├── LICENSE
 └── README.md
 ```
 

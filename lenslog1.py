@@ -26,10 +26,9 @@ SELECT_BG = "#1d4ed8"     # selection highlight
 
 
 def get_connection():
-    """Establishes connection to MySQL server using NCERT standard syntax."""
     try:
         connection = mysql.connector.connect(
-            host="localhost", user="root", password="Fahe2009", database="lenslog_db"
+            host="localhost", user="root", password="password", database="lenslog_db"
         )
         return connection
     except mysql.connector.Error as err:
